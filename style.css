@@ -1,5 +1,4 @@
 
-/* PERSONA 5 INSPIRED THEME */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
@@ -30,7 +29,7 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
 }
 
-/* NAVIGATION */
+/* nav */
 
 .navbar,
 .navbar.bg-dark {
@@ -86,7 +85,6 @@ body {
   box-shadow: 0 0 0 .2rem rgba(237, 28, 36, .3);
 }
 
-/* HERO SECTION */
 
 .hero {
   position: relative;
@@ -148,7 +146,6 @@ main h2,
   max-width: 650px;
 }
 
-/* SECTION HEADINGS */
 
 main h2 {
   color: #fff;
@@ -163,7 +160,6 @@ main h2::after {
   background: var(--p5-red);
 }
 
-/* TASK CARDS */
 
 .task-card {
   position: relative;
@@ -229,8 +225,6 @@ main h2::after {
   background: #fff;
 }
 
-/* TASK PAGE HEADINGS */
-
 .page-heading {
   border-left: 7px solid var(--p5-red);
   padding-left: 1rem;
@@ -248,7 +242,6 @@ main h2::after {
   color: #fff !important;
 }
 
-/* FORMS */
 
 .form-panel {
   max-width: 800px;
@@ -298,8 +291,6 @@ main h2::after {
   box-shadow: 0 0 0 .22rem rgba(237, 28, 36, .16);
 }
 
-/* CHECKBOXES AND RADIO BUTTONS */
-
 .form-check-input {
   border: 2px solid #999;
   border-radius: 0 !important;
@@ -315,7 +306,6 @@ main h2::after {
   box-shadow: 0 0 0 .2rem rgba(237, 28, 36, .2);
 }
 
-/* BUTTONS */
 
 .btn {
   border-radius: 0;
@@ -357,7 +347,6 @@ main h2::after {
   border-color: #222;
 }
 
-/* ALERTS AND FOOTER */
 
 .alert {
   color: #eee;
@@ -376,7 +365,6 @@ footer small {
   letter-spacing: .5px;
 }
 
-/* VALIDATION STATES */
 
 .was-validated .form-control:valid,
 .form-control.is-valid,
@@ -392,7 +380,6 @@ footer small {
   border-color: var(--p5-red);
 }
 
-/* MOBILE */
 
 @media (max-width: 576px) {
   .hero {
